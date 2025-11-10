@@ -4,7 +4,7 @@ function convertToMiles() {
 
   const kilometers = parseFloat(kmInput.value);
 
-  // التحقق من صحة الإدخال
+
   if (isNaN(kilometers) || kilometers < 0) {
     resultDiv.style.color = "red";
     resultDiv.textContent = "Please enter a valid non-negative number.";
